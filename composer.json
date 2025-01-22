@@ -1,0 +1,18 @@
+{
+    "name": "k911k/module-db-connection-manager",
+    "description": "Magento 2 Module To Switch Db connection from master to replica on fly.",
+    "config": {
+        "sort-packages": true
+    },
+    "version": "1.0.0",
+    "require": {
+        "php": "^7.1|^8.0"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "K911K\\DbConnectionManager\\": ""
+        }
+    }
+}
